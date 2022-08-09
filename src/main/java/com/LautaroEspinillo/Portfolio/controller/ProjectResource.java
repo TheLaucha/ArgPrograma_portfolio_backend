@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@CrossOrigin
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/projects")
 public class ProjectResource {
